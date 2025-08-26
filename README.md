@@ -31,13 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot-desktop.jpg)
-![](./Screenshot-mobile.jpg)
+![](./Screenshot-desktop.png)
+![](./Screenshot-mobile.png)
 
 ### Links
 
 - Solution URL: [Solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://cla91-interactive-card-details-form.netlify.app/)
 
 ## My process
 
