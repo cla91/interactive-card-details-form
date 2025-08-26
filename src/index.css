@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+:root {
+  --ff-serif: "Space Grotesk",
+    sans-serif;
+  --color-neutral-000: 0, 100%, 100%;
+  --color-neutral-200: 270, 3%, 87%;
+  --color-neutral-400: 212, 12%, 71%;
+  --color-accent: 278, 68%, 11%;
+  --color-error: 0, 100%, 66%;
+  --color-active-border: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  background-image: url("./assets/images/bg-main-mobile.png");
+  background-size: 100% 24rem;
+  background-position: top center;
+  background-repeat: no-repeat;
+  font-family: var(--ff-serif);
+  font-weight: 500;
+  font-optical-sizing: auto;
+  color: hsl(var(--color-neutral-400));
+
+  @media screen and (min-width:48rem) {
+    background-size: 100% 34rem;
+  }
+
+  @media screen and (min-width:64rem) {
+    min-height: 100vh;
+    background-image: url("./assets/images/bg-main-desktop.png");
+    background-size: contain;
+    background-position: top left;
+  }
+}
+
+main {
+  @media screen and (min-width:64rem) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+}
+
+input,
+button {
+  font-family: inherit;
+  font-weight: inherit;
+  font-optical-sizing: inherit;
+  width: 100%;
+  cursor: pointer;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+label {
+  color: hsl(var(--color-accent));
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

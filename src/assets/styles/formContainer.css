@@ -1,0 +1,33 @@
+.formContainer {
+  padding-inline: 2.4rem;
+  max-width: calc(38.3rem + 2.4rem + 2.4rem);
+  margin: 0 auto;
+  padding-block-start: 4.8rem;
+  padding-block-end: 4.8rem;
+}
+
+.formContainer.success {
+  display: grid;
+  text-align: center;
+  gap: 1.6rem;
+  justify-items: center;
+  width: 100%;
+
+  h1 {
+    color: hsl(var(--color-accent));
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    line-height: 1.3;
+    letter-spacing: 0.35rem;
+  }
+
+  p {
+    line-height: 1.3;
+    letter-spacing: 0;
+    margin-block-end: 3.2rem;
+  }
+
+  img {
+    margin-block-end: 1.6rem;
+  }
+}
