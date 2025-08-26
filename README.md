@@ -11,6 +11,7 @@ This is a solution to the [Interactive card details form challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -52,6 +53,10 @@ Users should be able to:
 ### What I learned
 
 Good practice for react hook form, from the validation to the use of useFormContext instead of react useContext.
+
+### Continued development
+
+I'll probably redo it with the check on the card date to see if it's expired.
 
 ## Author
 
