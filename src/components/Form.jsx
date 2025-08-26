@@ -1,4 +1,3 @@
-import { DevTool } from "@hookform/devtools";
 import { useFormContext } from "react-hook-form";
 import "./../assets/styles/form.css";
 
@@ -146,7 +145,6 @@ export default function Form() {
           Confirm
         </button>
       </form>
-      <DevTool control={control} />
     </>
   );
 }
